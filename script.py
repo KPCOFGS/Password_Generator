@@ -71,7 +71,6 @@ def ensure_elements(lst, combined):
 
     while True:
         missing_sets = check_categories(lst)
-        print(missing_sets)
         if not missing_sets:
             break
 
@@ -130,9 +129,6 @@ for x in temp_set:
         combined.remove(x)
     except:
         pass
-for x in password:
-    print(x,end="")
-print()
 password = ensure_elements(password, combined)
 consec_values = find_consecutive_values(password)
 if consec_values != []:
