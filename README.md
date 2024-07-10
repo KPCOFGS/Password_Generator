@@ -7,8 +7,8 @@ This script generates a random password ranging from length 8 to 50 inclusive
 **Using git**
 
 ```bash
-git clone 
-cd 
+git clone https://github.com/KPCOFGS/Password_Generator.git
+cd Password_Generator
 ```
 
 ## Parameters
