@@ -24,9 +24,10 @@ python script.py PASS_LENGTH
 ## Note
 
 * `pass_length` cannot go below 8 and cannot go above 50
-* The script guarentees no consecutive values, such as `ABC`, `123`, `abc`
-* The script guarentees at least 1 number, symbol, uppcase letter and lowercase letter.
+* The script guarantees no consecutive values, such as `ABC`, `123`, `abc`
+* The script guarantees at least 1 number, symbol, uppcase letter and lowercase letter.
 * The script guarantees that no character is repeated three times.
+* The script guarantees that no character will appear more than 25% of the time
 
 ## License
 
